@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by Ostap Kozak on 2/16/17 12:21 PM.
+  ~ Copyright (c) 2017. All rights reserved.
+  ~
+  ~  Last modified 2/16/17 11:42 AM
+  -->
+
+<resources>
+    <dimen name="horizontal_margin">16dp</dimen>
+    <dimen name="vertical_margin">16dp</dimen>
+
+</resources>
