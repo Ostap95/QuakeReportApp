@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+~ Created by Ostap Kozak on 2/17/17 1:48 PM.
+~ Copyright (c) 2017. All rights reserved.
+~
+~  Last modified 2/17/17 1:48 PM
+-->
+<!-- Background circle for the magnitude value -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="@color/magnitude1" />
+    <size
+        android:width="36dp"
+        android:height="36dp" />
+    <corners android:radius="18dp" />
+</shape>
