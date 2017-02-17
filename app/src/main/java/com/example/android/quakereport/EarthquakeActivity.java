@@ -35,7 +35,7 @@ public class EarthquakeActivity extends AppCompatActivity {
         // Find a reference to the {@link ListView} in the layout
         ListView earthquakeListView = (ListView) findViewById(R.id.list);
 
-        EarthquakeAdapter adapter = new EarthquakeAdapter(this, earthquakes);
+        final EarthquakeAdapter adapter = new EarthquakeAdapter(this, earthquakes);
         // Set the adapter on the {@link ListView}
         // so the list can be populated in the user interface
         earthquakeListView.setAdapter(adapter);
@@ -43,7 +43,7 @@ public class EarthquakeActivity extends AppCompatActivity {
         earthquakeListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Earthquake earthquake = (Earthquake) adapterView.getItemAtPosition(i);
+                Earthquake earthquake = adapter.getItem(i)
                 Intent intent = new Intent(Intent.ACTION_VIEW);
                 intent.setData(Uri.parse(earthquake.getEarthquakeUrl()));
                 startActivity(intent);
