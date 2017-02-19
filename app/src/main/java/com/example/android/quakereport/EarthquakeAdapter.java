@@ -9,6 +9,7 @@ package com.example.android.quakereport;
 
 import android.content.Context;
 import android.graphics.drawable.GradientDrawable;
+import android.os.AsyncTask;
 import android.support.annotation.NonNull;
 import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
@@ -23,11 +24,12 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.regex.Pattern;
 
+import static com.example.android.quakereport.QueryUtils.fetchData;
+
 
 public class EarthquakeAdapter extends ArrayAdapter<Earthquake> {
 
     private static final String LOCATION_SEPARATOR = " of ";
-
 
     public EarthquakeAdapter(Context context, ArrayList<Earthquake> earthquakes) {
         super(context, 0, earthquakes);
@@ -149,6 +151,4 @@ public class EarthquakeAdapter extends ArrayAdapter<Earthquake> {
         }
     }
 
-
-    private class fetchEarthquakeData
 }
