@@ -22,6 +22,7 @@ import java.util.Date;
 
 public class EarthquakeActivity extends AppCompatActivity {
 
+
     public static final String LOG_TAG = EarthquakeActivity.class.getName();
 
     @Override
@@ -43,7 +44,7 @@ public class EarthquakeActivity extends AppCompatActivity {
         earthquakeListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Earthquake earthquake = adapter.getItem(i)
+                Earthquake earthquake = adapter.getItem(i);
                 Intent intent = new Intent(Intent.ACTION_VIEW);
                 intent.setData(Uri.parse(earthquake.getEarthquakeUrl()));
                 startActivity(intent);

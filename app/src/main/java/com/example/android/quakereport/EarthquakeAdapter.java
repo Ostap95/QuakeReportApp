@@ -148,4 +148,7 @@ public class EarthquakeAdapter extends ArrayAdapter<Earthquake> {
             return parts;
         }
     }
+
+
+    private class fetchEarthquakeData
 }
