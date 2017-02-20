@@ -39,9 +39,7 @@ public class QueryUtils {
      * This class is only meant to hold static variables and methods, which can be accessed
      * directly from the class name QueryUtils (and an object instance of QueryUtils is not needed).
      */
-    private QueryUtils() {
-    }
-
+    private QueryUtils() {}
 
     public static ArrayList<Earthquake> fetchData(String requestUrl) {
         // Create URL object
