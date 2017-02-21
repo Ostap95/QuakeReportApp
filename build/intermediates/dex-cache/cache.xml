@@ -3,30 +3,30 @@
 
     <item
         is-multidex="true"
-        jar="/Users/ostapkozak/Documents/GitHub/QuakeReportApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/jars/classes.jar"
+        jar="/Users/ostapkozak/Documents/GitHub/QuakeReportApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
-        <dex dex="/Users/ostapkozak/Documents/GitHub/QuakeReportApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.3.0_6a7dc71501177caea3368d54189d4124c3c9614d/classes.dex" />
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/ostapkozak/Documents/GitHub/QuakeReportApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_632b55293259e0e1836f44ed5e1c1e7dfbe564be/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/ostapkozak/Documents/GitHub/QuakeReportApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars/classes.jar"
+        jar="/Users/ostapkozak/Documents/GitHub/QuakeReportApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
-        <dex dex="/Users/ostapkozak/Documents/GitHub/QuakeReportApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.3.0_f552bd7921b923a95faf83fcd5fc7556d6f606c1/classes.dex" />
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/ostapkozak/Documents/GitHub/QuakeReportApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_734d4152f847247e87ccf1741270ce01981c3062/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/ostapkozak/Documents/GitHub/QuakeReportApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jar="/Users/ostapkozak/Documents/GitHub/QuakeReportApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
-        <dex dex="/Users/ostapkozak/Documents/GitHub/QuakeReportApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_072133d99530163f57a6906dd7a97768c8b59b36/classes.dex" />
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/ostapkozak/Documents/GitHub/QuakeReportApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_7f26ba408a5dce2021675921ddc0d88e8b552130/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -34,26 +34,35 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="c4fb7a299887667ffc8e060ec5f850f79afbf02a">
+        sha1="23b7d4968da7c830e28d3e510e7f58b591dd6245">
         <dex dex="/Users/ostapkozak/Documents/GitHub/QuakeReportApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_214c08a3d6cf909ce092d8d3a8661773113b5784/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/ostapkozak/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jar="/Users/ostapkozak/Documents/GitHub/QuakeReportApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
-        <dex dex="/Users/ostapkozak/Documents/GitHub/QuakeReportApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_2602391995392b5a0b36b85971d3f387436fe7b7/classes.dex" />
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/ostapkozak/Documents/GitHub/QuakeReportApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_e2276a45c7af767018847b81d8af9bfc9f7eb836/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/ostapkozak/Documents/GitHub/QuakeReportApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
+        jar="/Users/ostapkozak/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
-        <dex dex="/Users/ostapkozak/Documents/GitHub/QuakeReportApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.3.0_de6fe0e43ee6641ca6350bf18775c78feab4d2b8/classes.dex" />
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/ostapkozak/Documents/GitHub/QuakeReportApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_4ac8f4848df4c75609a28b16f63c8b82d2c43305/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ostapkozak/Documents/GitHub/QuakeReportApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/ostapkozak/Documents/GitHub/QuakeReportApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_d4a984b4273ddc457385a7767cb73cffd24ab1db/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -63,15 +72,6 @@
         revision="23.0.2"
         sha1="4d19af003ce07e35a109bd59a958269e13b9c58b">
         <dex dex="/Users/ostapkozak/Documents/GitHub/QuakeReportApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_79909079ebc835c72083e4a7b2c105c432ebd2e2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/ostapkozak/Documents/GitHub/QuakeReportApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
-        <dex dex="/Users/ostapkozak/Documents/GitHub/QuakeReportApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.3.0_ccedf83f7b1006865e1b6beea32ccc5e355d4ae4/classes.dex" />
     </item>
 
 </items>

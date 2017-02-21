@@ -6,7 +6,10 @@
  */
 package com.example.android.quakereport;
 
+import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -14,6 +17,8 @@ import android.os.SystemClock;
 import android.support.v4.app.LoaderManager;
 import android.support.v4.content.Loader;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -50,11 +55,25 @@ public class EarthquakeActivity extends AppCompatActivity implements LoaderManag
         super.onCreate(savedInstanceState);
         setContentView(R.layout.earthquake_activity);
 
-        LoaderManager loaderManager = getSupportLoaderManager();
-        loaderManager.initLoader(0, null, this);
-
         mEmptyStateTextView = (TextView) findViewById(R.id.empty_view);
         mProgressBar = (ProgressBar) findViewById(R.id.loading_progress_bar);
+
+        ConnectivityManager cm = (ConnectivityManager)  getSystemService(Context.CONNECTIVITY_SERVICE);
+
+        NetworkInfo activeNetwork = cm.getActiveNetworkInfo();
+        boolean isConnected = activeNetwork != null &&
+                activeNetwork.isConnectedOrConnecting();
+
+
+        if (isConnected) {
+            LoaderManager loaderManager = getSupportLoaderManager();
+            loaderManager.initLoader(0, null, this);
+        } else {
+            View loadingIndicator = findViewById(R.id.loading_progress_bar);
+            loadingIndicator.setVisibility(View.GONE);
+            mEmptyStateTextView.setText(getResources().getString(R.string.no_connection));
+        }
+
     }
 
 
@@ -101,4 +120,14 @@ public class EarthquakeActivity extends AppCompatActivity implements LoaderManag
 
     }
 
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        return super.onOptionsItemSelected(item);
+    }
 }
